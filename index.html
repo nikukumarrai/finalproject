@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perfume Store</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="logo.svg" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <h1 style="color: brown; margin-left: 30%;">Owner and creator of this website is:- Niku Rai</h1>
+  <header class="header container">
+    <div class="navbar">
+      <img src="logo.svg" alt="Logo" width="125" />
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#cart">Cart <span id="cart-count" class="cart-count">0</span></a></li>
+          <li><a href="#payment">Payment</a></li>
+          <li><a href="#thankyou">Thank You</a></li>
+        </ul>
+      </nav>
+      <input type="text" id="search-bar" placeholder="Search item..." />
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <h1>Smell is a word <br /> Perfume is <br /> Literature</h1>
+      </div>
+      <div class="col-2">
+        <img src="sale perfume.png" alt="Perfume Sale" />
+      </div>
+    </div>
+  </header>
+
+  <section class="small-container categories row">
+    <img class="col-3" src="perfume1.jpg" alt="Perfume 1" height="300px" width="200px"/>
+    <img class="col-3" src="perfume2.jpg" alt="Perfume 2" height="300px" width="200px"/>
+    <img class="col-3" src="perfume3.jpg" alt="Perfume 3" height="300px" width="200px"/>
+  </section>
+
+  <section class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="image1.png" alt="Posses 100ml" />
+        <h4>Posses 100ml</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i><i class="fa fa-star"></i>
+          <i class="fa fa-star"></i><i class="fa fa-star"></i>
+        </div>
+        <p>Rs:310</p>
+        <button class="add-to-cart" data-name="Posses 100ml" data-price="310">Add to cart</button>
+      </div>
+      <div class="col-4">
+        <img src="image2.png" alt="ACQUA di GIOIA" />
+        <h4>ACQUA di GIOIA 150ml</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+        </div>
+        <p>Rs:300</p>
+        <button class="add-to-cart" data-name="ACQUA di GIOIA" data-price="300">Add to cart</button>
+      </div>
+      <div class="col-4">
+        <img src="image3.png" alt="Zara Femme" />
+        <h4>Zara Femme 100ml</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-alt"></i>
+        </div>
+        <p>Rs:270</p>
+        <button class="add-to-cart" data-name="Zara Femme" data-price="270">Add to cart</button>
+      </div>
+      <div class="col-4">
+        <img src="image4.jpg" alt="Engage W1" />
+        <h4>Engage W1 Perfume</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+        </div>
+        <p>Rs:250</p>
+        <button class="add-to-cart" data-name="Engage W1" data-price="250">Add to cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="small-container">
+    <h2 class="title">Premium Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="preper1.jpg" alt="Prada" />
+        <h4>Prada 150ml</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+        </div>
+        <p>Rs:399</p>
+        <button class="add-to-cart" data-name="Prada" data-price="399">Add to cart</button>
+      </div>
+      <div class="col-4">
+        <img src="preper2.jpg" alt="Safira" />
+        <h4>Safira 50ml</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+        </div>
+        <p>Rs:380</p>
+        <button class="add-to-cart" data-name="Safira" data-price="380">Add to cart</button>
+      </div>
+      <div class="col-4">
+        <img src="preper3.webp" alt="Versace" />
+        <h4>Versace Bright Crystal</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+        </div>
+        <p>Rs:410</p>
+        <button class="add-to-cart" data-name="Versace" data-price="410">Add to cart</button>
+      </div>
+      <div class="col-4">
+        <img src="preper4.jpeg" alt="Gucci Bloom" />
+        <h4>Gucci Bloom 100ml</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-alt"></i>
+        </div>
+        <p>Rs:450</p>
+        <button class="add-to-cart" data-name="Gucci Bloom" data-price="450">Add to cart</button>
+      </div>
+    </div>
+  </section>
+  <!-- Cart Section -->
+<section id="cart">
+  <h2 class="title">Cart Items</h2>
+  <div id="cart-items" class="row container"></div>
+  <div class="center">
+    <input type="text" id="coupon-code" placeholder="Enter coupon code">
+    <button onclick="applyCoupon()" class="add-to-cart">Apply</button>
+  </div>
+  <div id="cart-summary" class="center"></div>
+  <div class="center">
+    <button onclick="checkout()" class="add-to-cart">Checkout</button>
+  </div>
+</section>
+
+<!-- Shipping Address Section -->
+<div class="container" id="shipping-address" style="margin-top: 40px;">
+  <h2 class="title">Shipping Address</h2>
+  <form id="shipping-form">
+    <input type="text" id="name" placeholder="Full Name" required />
+    <input type="text" id="mobile" placeholder="Mobile Number" required />
+    <input type="text" id="street" placeholder="Street Address" required />
+    <input type="text" id="city" placeholder="City" required />
+    <input type="text" id="state" placeholder="State" required />
+    <input type="text" id="pincode" placeholder="Pincode" required maxlength="6" />
+    <button type="button" class="add-to-cart" onclick="saveAddress()">Save Address</button>
+  </form>
+</div>
+
+<!-- Payment Section -->
+<section id="payment">
+  <h2 class="title">Payment</h2>
+  <form id="payment-form" onsubmit="handlePayment(event)" class="container">
+    <label><input type="radio" name="payment" value="card" checked> Pay with Card</label>
+    <label><input type="radio" name="payment" value="cod"> Cash on Delivery</label>
+    <div id="card-details">
+      <input type="text" placeholder="Cardholder Name" required>
+      <input type="text" placeholder="Card Number" required maxlength="16">
+      <input type="text" placeholder="MM/YY" required maxlength="5">
+      <input type="password" placeholder="CVV" required maxlength="3">
+    </div>
+    <button type="submit" class="add-to-cart">Place Order</button>
+  </form>
+</section>
+
+<!-- Thank You Section -->
+<section id="thankyou">
+  <div class="thank-you">
+    <img src="logo.svg" alt="Logo" width="100">
+    <h1>Thank You for Your Order!</h1>
+    <p>Your order has been placed successfully.</p>
+    <a href="#home">Back to Home</a>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-col-1">
+      <h3>Download Our App</h3>
+      <p>Download App for Android and iOS mobile phones</p>
+      <div class="app-logo">
+        <img src="playstore.jpg" alt="">
+        <img src="Appstore.jpg" alt="">
+      </div>
+    </div>
+    <div class="footer-col-2">
+      <img src="logo.svg" alt="">
+      <p>Our Purpose Is To Make Perfume Shopping Easy & Luxurious for Everyone.</p>
+    </div>
+    <div class="footer-col-3">
+      <h3>Useful Links</h3>
+      <ul>
+        <li>Coupons</li>
+        <li>Blog Post</li>
+        <li>Return Policy</li>
+        <li>Join Affiliate</li>
+      </ul>
+    </div>
+    <div class="footer-col-4">
+      <h3>Follow Us</h3>
+      <ul>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+        <li>YouTube</li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <p class="copyright">Copyright 2025 - Perfume Website by Nitu</p>
+</footer>
+
+<!-- JavaScript Section -->
+<script>
+  const cartItemsContainer = document.getElementById("cart-items");
+  const cartSummary = document.getElementById("cart-summary");
+  const searchBar = document.getElementById("search-bar");
+  const form = document.getElementById("payment-form");
+  const cardDetails = document.getElementById("card-details");
+  const cartCount = document.getElementById("cart-count");
+
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+  let filteredCart = [...cart];
+  let discount = 0;
+
+  document.querySelectorAll(".add-to-cart").forEach(button => {
+    if (!button.dataset.name || !button.dataset.price) return;
+    button.addEventListener("click", () => {
+      const name = button.dataset.name;
+      const price = parseFloat(button.dataset.price);
+      cart.push({ name, price });
+      localStorage.setItem("cart", JSON.stringify(cart));
+      alert(`${name} added to cart!`);
+      updateCartCount();
+      applySearch();
+    });
+  });
+
+  function updateCartCount() {
+    cartCount.textContent = JSON.parse(localStorage.getItem("cart"))?.length || 0;
+  }
+
+  function renderCart() {
+    cartItemsContainer.innerHTML = "";
+    let total = 0;
+    if (filteredCart.length === 0) {
+      cartItemsContainer.innerHTML = "<p style='text-align:center;'>No matching items found.</p>";
+      cartSummary.innerHTML = "";
+      return;
+    }
+    filteredCart.forEach((item, index) => {
+      total += item.price;
+      const div = document.createElement("div");
+      div.className = "col-4";
+      div.innerHTML = `
+        <h4>${item.name}</h4>
+        <p>Price: Rs ${item.price}</p>
+        <button class="add-to-cart" onclick="removeItem(${index})">Remove</button>
+      `;
+      cartItemsContainer.appendChild(div);
+    });
+    let discountAmount = total * discount;
+    let finalTotal = total - discountAmount;
+    cartSummary.innerHTML = `
+      <p>Total: Rs ${total}</p>
+      <p style="color: green;">Discount: -Rs ${discountAmount.toFixed(0)}</p>
+      <strong>Final Total: Rs ${finalTotal.toFixed(0)}</strong>
+    `;
+  }
+
+  function removeItem(index) {
+    const removedItem = filteredCart[index];
+    const cartIndex = cart.findIndex(item => item.name === removedItem.name && item.price === removedItem.price);
+    if (cartIndex !== -1) {
+      cart.splice(cartIndex, 1);
+      localStorage.setItem("cart", JSON.stringify(cart));
+      applySearch();
+      updateCartCount();
+    }
+  }
+
+  function applyCoupon() {
+    const code = document.getElementById("coupon-code").value.trim().toLowerCase();
+    if (code === "parcos10") {
+      discount = 0.10;
+      alert("Coupon applied: 10% off!");
+    } else {
+      discount = 0;
+      alert("Invalid coupon code");
+    }
+    renderCart();
+  }
+
+  function checkout() {
+    if (cart.length === 0) {
+      alert("Your cart is empty!");
+      return;
+    }
+    alert("Proceeding to Payment Section Below ↓");
+    document.getElementById("payment").scrollIntoView({ behavior: "smooth" });
+  }
+
+  function handlePayment(e) {
+    e.preventDefault();
+    const method = form.payment.value;
+    if (method === "card") {
+      alert("Payment successful! Thank you for your purchase.");
+    } else {
+      alert("Order placed with Cash on Delivery. Thank you!");
+    }
+    localStorage.removeItem("cart");
+    updateCartCount();
+    document.getElementById("thankyou").scrollIntoView({ behavior: "smooth" });
+  }
+
+  function applySearch() {
+    const term = searchBar.value.trim().toLowerCase();
+    filteredCart = cart.filter(item => item.name.toLowerCase().includes(term));
+    renderCart();
+  }
+
+  function saveAddress() {
+    const name = document.getElementById("name").value.trim();
+    const mobile = document.getElementById("mobile").value.trim();
+    const street = document.getElementById("street").value.trim();
+    const city = document.getElementById("city").value.trim();
+    const state = document.getElementById("state").value.trim();
+    const pincode = document.getElementById("pincode").value.trim();
+
+    if (!name || !mobile || !street || !city || !state || !pincode) {
+      alert("Please fill all address fields.");
+      return;
+    }
+
+    const address = { name, mobile, street, city, state, pincode };
+    localStorage.setItem("shippingAddress", JSON.stringify(address));
+    alert("Address saved successfully!");
+  }
+
+  document.querySelectorAll('input[name="payment"]').forEach(radio => {
+    radio.addEventListener("change", () => {
+      cardDetails.style.display = radio.value === "card" ? "block" : "none";
+    });
+  });
+
+  applySearch();
+  updateCartCount();
+</script>
+</body>
+</html>
+
